@@ -74,7 +74,7 @@ AWS Serverless Lambda function that sends log data from CloudWatch Logs and S3.
 
     - Provide the function name & choose `Python 3.7`
     - Attach the IAM Role - `serverless-cw-to-s3-exporter-role`
-    - [Get code here](https://www.youtube.com/c/valaxytechnologies/about)
+    - [Get code here](https://github.com/psipher/serverless-cloudwatch-logs-exporter/blob/master/serverless-cloudwatch-logs-exporter.py)
     - `Save` the lambda function
 
 1. ## ⚙️ Configure Lambda Triggers
@@ -110,9 +110,6 @@ This Lambda function has the following limitation:
 
 - Currently If you want to export all log groups, you have to list them all manually. _This is by design, as the export tasks are limited to `1 PENDING` task at any time by AWS, and Lambda have limited time to push all the logs._
 
-## 👋 Buy me a coffee
-
-Buy me a coffee ☕ through [Paypal](https://paypal.me/valaxy), _or_ You can reach out to get more details through [here](https://youtube.com/c/valaxytechnologies/about).
 
 ### 📚 References
 
